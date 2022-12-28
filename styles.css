@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 231, 231);
+}
+
+.wrapper {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.aside {
+    display: inline-block;
+    width: 37%;
+    height: auto;
+    vertical-align: top;
+    margin: 100px 0 0 10px;
+    padding: 30px 10px;
+}
+
+.aside div {
+    padding-left: 80px;
+    margin-bottom: 50px;
+}
+
+.aside button, input {
+    width: 60%;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.25rem;
+}
+
+p {
+    padding-top: 3px;
+    width: 60%;
+    text-align: center;
+}
+
+.aside button {
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 5px;
+    background: skyblue;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    letter-spacing: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+
+.aside button:hover{
+    border: 2px solid skyblue;
+    border-radius: 0%;
+    background: white;
+    color: rgb(6, 179, 248)
+}
+
+.container {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(40, 40, 40, 0.6);
+}
+
+.grid {
+    background: white;
+    display: grid;
+    height: inherit;
+}
+
+.color {
+    width: 60%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
